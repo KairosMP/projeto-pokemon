@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CardsPokemons</title>
     <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
-    <link rel="stylesheet" href="/src/style/style.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/reset.css">
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <img src="src/imagens/pokebola.png" alt="pokebola">
         <h1>MapaDev Week</h1>
     </header>
     <main>
-        <button>
+        <button class="btn-seta btn-voltar">
             <img src="src/imagens/seta.png" alt="seta voltar">
         </button>
 
         <ul>
-            <li>
-                <header>
-                    <h2>Pikachu</h2>
-                    <p>HP 300</p>
+            <li class="cartao selecionado fundo01">
+                <header class="info">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="hp">HP 300</p>
                 </header>
 
                 <figure>
@@ -33,8 +34,8 @@
                     <h3>Descrição</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, voluptates delectus esse, rerum, quis dignissimos vel beatae rem tempora natus accusantium. Iste libero animi ea aut placeat sint sit voluptates?</p>
                 </article>
-            </li>
-            <li>
+           </li>
+            <li class="cartao fundo02">
                 <header>
                     <h2>Charizard</h2>
                     <p>HP 800</p>
@@ -49,8 +50,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ex, id ratione autem laudantium natus commodi reiciendis necessitatibus, repellat iste molestias quod adipisci iusto. Minima itaque officia sed est ducimus.</p>
                 </article>
             </li>
-            <li>
-                <header>
+            <li class="cartao fundo03">
+                <header class="info">
                     <h2>Mewtwo</h2>
                     <p>HP 1200</p>
                 </header>
@@ -63,10 +64,10 @@
                     <h3>Descrição</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum soluta adipisci, culpa voluptate cum doloribus in? Iste, quo! Nostrum, veniam iusto perferendis quod explicabo nobis rem. Ut officia quae ipsa?</p>
                 </article>
-            </li>
+            </li> 
         </ul>
 
-        <button>
+        <button class="btn-seta">
             <img src="src/imagens/seta.png" alt="seta avançar">
         </button>
     </main>
