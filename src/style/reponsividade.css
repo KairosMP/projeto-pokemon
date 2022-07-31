@@ -1,0 +1,14 @@
+@media (max-width: 620px) {
+    .slide-pokemon {
+        padding: 0px 15px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex
+        justify-content: center;
+    }
+}
