@@ -1,5 +1,5 @@
 @media (max-width: 620px) {
-    .slide-pokemon {
+    .pokemon-slider {
         padding: 0px 15px;
         gap: 10px;
     }
@@ -10,5 +10,23 @@
         padding: 20px;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons {
+        height: 480px;
+    }
+
+    .cartao .imagem-pokemon {
+        max-height: 230px;
+    }
+
+    .cartao .info .nome {
+        max-width: 50%;
+        font-size: 18px;
+    }
+    
+    .cartao .info .vida {
+        font-size: 14px;
     }
 }
