@@ -140,4 +140,5 @@ body {
     text-align: justify;
     max-height: 115px;
     overflow-y: auto;
+    font-weight: lighter;
 }
